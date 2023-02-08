@@ -1,0 +1,11 @@
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\bin\Debug\DrawingApp.exe.config
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\bin\Debug\DrawingApp.exe
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\bin\Debug\DrawingApp.pdb
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.csproj.AssemblyReference.cache
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.Properties.Resources.resources
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.csproj.GenerateResource.cache
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.csproj.CoreCompileInputs.cache
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.exe
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.pdb
+C:\Users\MIRI\OneDrive\Desktop\Work\gdsc\C#\DrawingApp\DrawingApp\DrawingApp\obj\Debug\DrawingApp.Form1.resources
