@@ -20,11 +20,6 @@ namespace DrawingApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
-
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
             drawing = !drawing;
@@ -63,6 +58,28 @@ namespace DrawingApp
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             pen.Color = Color.Lime;
+        }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "JPeg Image|*.jpg|Bitmap Image *.bmp|";
+            saveFileDialog.Title = "Save an Image File";
+            saveFileDialog.ShowDialog();
+
+            if (saveFileDialog.FileName != "")
+            {
+                System.IO.FileStream fs = (System.IO.FileStream)saveFileDialog.OpenFile();
+                switch (saveFileDialog.FilterIndex)
+                {
+                    case 1:
+                        pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Jpeg);
+                        break;
+                    case 2:
+                        pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Bmp);
+                        break;
+                }
+            }
         }
     }
 }
